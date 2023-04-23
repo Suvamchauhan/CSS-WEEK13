@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* h1 styling  */
+h1{
+    text-align: center;
+    color: rgb(80, 67, 47);
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+/* styyle for tables */
+
+/* for logo  */
+
+#standings>tbody:nth-child(3)>tr:nth-child(3)>td:nth-child(1)>img:nth-child(1) {
+    background-color: rgba(9, 9, 97, 0.7);
+}
+
+table {
+    font-family: sans-serif;
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 3px solid rgb(40, 32, 40);
+    margin: auto;
+}
+
+thead th:nth-child(1) {
+    width: 3%;
+
+}
+
+thead th:nth-child(2) {
+    width: 10%;
+}
+
+thead th:nth-child(3) {
+    width: 5%;
+}
+
+thead th:nth-child(4) {
+    width: 5%;
+}
+thead th:nth-child(5) {
+    width: 5%;
+}
+thead th:nth-child(6) {
+    width: 5%;
+}
+thead th:nth-child(7) {
+    width: 5%;
+}
+thead th:nth-child(8) {
+    width: 5%;
+}
+thead th:nth-child(9) {
+    width: 5%;
+}
+thead th:nth-child(10) {
+    width: 5%;
+}
+thead th:nth-child(11) {
+    width: 5%;
+}
+
+tr{
+    transition: 0.5s;
+}
+tr:hover {
+    background-color: #221d1d;
+    transition: 0.5s;
+    color: white;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+/* typography style  */
+thead th,
+tfoot th {
+    font-family:serif;
+}
+
+thead th {
+    letter-spacing: 2px;
+    background-color: rgba(190, 185, 185, 0.773);
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
